@@ -2,7 +2,7 @@
 
 ## Guidelines
 
-Assessments are meant to give you and Hack Reactor staff an idea of how well you understand, or can figure out, the material that you covered recently.
+Assessments are meant to give you and Hola Code staff an idea of how well you understand, or can figure out, the material that you covered recently.
 
 - Turn off all communication devices such as your phone, email, Slack, etc.
 - Fork this repo and clone down your fork to your laptop.
