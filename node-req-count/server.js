@@ -20,16 +20,17 @@ var server = http.createServer(function(request, response) {
   if (request.method === 'POST') {
     // YOUR CODE HERE
     if (!property) {
-      var property.globalCounter = 1;
+      var property;
+      property.globalCounter = 1;
       return 201;
     }
-    else if (property) {
+     if (property) {
       property.globalCounter++;
       return 202;
     }
   } else if (request.method === 'GET') {
     // YOUR CODE HERE
-    else if (property) {
+     if (property) {
     return property.globalCounter;
     }
   } else {

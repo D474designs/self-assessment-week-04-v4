@@ -27,7 +27,7 @@ After you complete each prompt, assign a grade to each item in the Grading Outli
 ### Grading Outline
 
 - [x] node-req-count
-- [ ] async-word-count
+- [x] async-word-count
 
 ### Grading Scale
 
