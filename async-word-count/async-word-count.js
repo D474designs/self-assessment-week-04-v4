@@ -13,8 +13,16 @@ var getWordCount = function(filePath, callback) {
   });
 };
 
+// Inside `async-word-count.js`, complete `getTotalWordCount`. `getTotalWordCount`
+// should pass the combined word count of the files located at `filePathOne` and
+// `filePathTwo` to the `callback` following proper node style convention
+
+// - [ ] Be sure to handle errors at each step
+// - [ ] Do not use promises
+
 var getTotalWordCount = function(filePathOne, filePathTwo, callback) {
   // YOUR CODE HERE
+  var totalWordCount = getWordCount(filePathOne, callback) + getWordCount(filePathTwo, callback);
+  return totalWordCount;
 };
-
 module.exports = getTotalWordCount;

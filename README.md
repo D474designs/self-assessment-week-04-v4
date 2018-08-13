@@ -26,9 +26,8 @@ After you complete each prompt, assign a grade to each item in the Grading Outli
 
 ### Grading Outline
 
-- [ ] node-req-count
+- [x] node-req-count
 - [ ] async-word-count
-- [ ] angularjs-pond
 
 ### Grading Scale
 
@@ -44,7 +43,7 @@ Not attempted        | Whether you've thought much about the problem or not, you
 
 Solutions are submitted via [Pull Request](https://help.github.com/articles/using-pull-requests). Follow these steps:
 
-1. From **your fork**, select `Pull Requests` and then create a `New pull request`. 
+1. From **your fork**, select `Pull Requests` and then create a `New pull request`.
 2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
 
   > hackreactor:username ... username:master
